@@ -1,3 +1,0 @@
-Sitemap: https://aroundsketch.github.io/sitemap.xml
-User-agent: *
-Allow: /
