@@ -1,13 +1,9 @@
 sets:
   - name: Apple App Icons
-    img: /assets/img/IMG_0356.jpg
+    details: 59
+    img: /assets/img/Artboard.webp
     url: https://aroundsketch.github.io/Apple-App-Icons/
-  - name: Apple App Icons
-    img: /assets/img/IMG_0356.jpg
-    url: https://aroundsketch.github.io/Apple-App-Icons/
-  - name: Apple App Icons
-    img: /assets/img/IMG_0356.jpg
-    url: https://aroundsketch.github.io/Apple-App-Icons/
-  - name: Apple App Icons
-    img: /assets/img/IMG_0356.jpg
+  - name: Coming 
+    details: soon
+    img: /assets/img/Artboard-1.webp
     url: https://aroundsketch.github.io/Apple-App-Icons/
