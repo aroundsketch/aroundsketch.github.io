@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}" class="h-100">
   <head>
+    {%- include analytics.html -%}
     <meta charset="UTF-8">
     {% feed_meta %}
     {% seo %}
@@ -8,7 +9,6 @@
     <meta name="theme-color" content="">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     {%- include _css.html -%}
-    {%- include analytics.html -%}
   </head>
   <body class="container d-flex h-100 p-3 text-center">
     <div class="d-flex w-100 h-100 mx-auto flex-column">
