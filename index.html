@@ -3,7 +3,7 @@ layout: cover
 ---
 <div class="p-md-5 py-4 rounded-3 text-center">
   <div class="container-fluid">
-    <div class="row py-lg-5">
+    <div class="row">
       <div class="col-lg-8 col-md-8 mx-auto">
         <h1 class="display-3 fw-bold">SVG Icon Library</h1>
         <p class="lead fs-4">You can download and use it free for personal project. I hope you'll find it helpful it and don't forget to spread the world.</p>
@@ -15,12 +15,12 @@ layout: cover
 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 text-start mb-5">
   {% for set in site.data.sets.sets %}
     <div class="col">
-      <a href="{{set.url}}">
+      <a class="text-decoration-none" href="{{set.url}}">
         <div class="card">
-          <img src="{{set.img}}" class="card-img-top"  width="100%" height="225" role="img" aria-label="Placeholder: Thumbnail" alt="{{set.name}}">
+          <img class="card-img-top p-2" src="{{set.img}}"  width="100%" height="auto" role="img" aria-label="Placeholder: Thumbnail" alt="{{set.name}}">
           <div class="card-body">
             <div class="d-flex justify-content-between align-items-center">
-              <h5 class="card-text">{{set.name}}</h5>
+              <h5 class="card-text m-0 text-dark">{{set.name}}</h5>
               <small class="text-muted">{{set.details}}</small>
             </div>
           </div>

@@ -3,7 +3,11 @@ sets:
     details: 59
     img: /assets/img/Artboard.webp
     url: https://aroundsketch.github.io/Apple-App-Icons/
-  - name: Coming 
-    details: soon
+  - name: Top Crypto Logos
+    details: 100
     img: /assets/img/Artboard-1.webp
-    url: https://aroundsketch.github.io/Apple-App-Icons/
+    url: /top-crypto-logos/
+  - name: Top Crypto Exchanges
+    details: 100
+    img: /assets/img/Artboard-1.webp
+    url: /top-crypto-exchanges/
