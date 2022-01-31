@@ -1,0 +1,10 @@
+
+{
+  "name": "my_package",
+  "description": "",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "bundle exec jekyll serve --livereload",
+    "ruby": "ruby help.rb"
+  }
+}

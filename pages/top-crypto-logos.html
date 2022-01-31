@@ -10,7 +10,7 @@ permalink: /top-crypto-logos/
   <p>count here</p>
 </div>
 <ul class="row row-cols-3 row-cols-sm-4 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
-  {% for token in site.data.top-crypto-logos.tokens %}
+  {% for crypto in site.data.top-crypto-logos %}{% for token in crypto[1] %}
   <li class="col mb-4" data-tags="aapl mac macintosh" data-categories="brand">
     <a class="d-block text-dark text-decoration-none border rounded" href="{{ token.url }}">
       <div class="px-2 py-3 py-md-5 text-center">
@@ -19,5 +19,5 @@ permalink: /top-crypto-logos/
       <div class="card-footer bg-white text-decoration-none text-muted">{{ token.name }}</div>
     </a>
   </li>
-  {% endfor %}
+  {% endfor %}{% endfor %}
 </ul>
