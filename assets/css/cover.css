@@ -6,16 +6,16 @@
 }
 
 .nav-masthead .nav-link {
-  padding: .25rem 0;
+  padding: 0.25rem 0;
   font-weight: 700;
   color: rgba(0, 0, 0, 0.5);
   background-color: transparent;
-  border-bottom: .25rem solid transparent;
+  border-bottom: 0.25rem solid transparent;
 }
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(0, 0, 0, .25);
+  border-bottom-color: rgba(0, 0, 0, 0.25);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -30,4 +30,19 @@
 .icon-rounded {
   border-radius: 20px;
   width: 96px;
+}
+
+.icon-demo {
+  background-color: #fdfdfd;
+  background-image: radial-gradient(circle, #ddd 1px, rgba(0, 0, 0, 0) 1px);
+  background-size: 1rem 1rem;
+}
+
+.py-6 {
+  padding-top: 4.5rem !important;
+  padding-bottom: 4.5rem !important;
+}
+
+.container-960 {
+  max-width: 960px;
 }

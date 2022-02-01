@@ -4,7 +4,7 @@ sets:
     img: /assets/img/Artboard.webp
     url: https://aroundsketch.github.io/Apple-App-Icons/
   - name: Top Crypto Logos
-    details: 100
+    details: 5
     img: /assets/img/Artboard-1.webp
     url: /top-crypto-logos/
   - name: Top Crypto Exchanges

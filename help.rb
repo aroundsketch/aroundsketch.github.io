@@ -1,3 +1,4 @@
+# create .yml files
 Dir.foreach("assets/img/crypto-tokens-logos/") do |file|
     if File.extname(file) == ".svg"
       new_file_name = File.basename(file, ".svg")
@@ -10,6 +11,7 @@ Dir.foreach("assets/img/crypto-tokens-logos/") do |file|
       end
   end
 
+# create .html files
 Dir.foreach("_data/top-crypto-logos/") do |filename|
     file_extension = File.extname(filename)
     if file_extension == ".yml"
@@ -25,8 +27,16 @@ description: #{file_title} Service page description
 permalink: /top-crypto-logos/#{file_no_extension}/
 ser: #{file_ser}
 ---
-<div class="+'"container"'+">{% include token.html %}</div>
-"
-  )}
+<div class="+'"container"'+">{% include token.html %}</div>"
+)}
     end
 end
+
+# count
+dir = '_data/top-crypto-logos'
+total = Dir[File.join(dir, '**', '*')].count { |file| File.file?(file) }
+File.open("_data/count-crypto.yml", "w") {|f| f.write(
+"- name: count
+  total: #{total}"
+  )}
+puts total "tokens"

@@ -4,20 +4,24 @@ title: Top Crypto Logos
 description: Top Crypto Logos
 permalink: /top-crypto-logos/
 --- 
-<div>
-  <h1>Top Crypto Logos</h1>
-  <p>Top Crypto Logos</p>
-  <p>count here</p>
+<div class="container">
+  <div class="text-center py-md-5 pb-3">
+    <h1>Top Crypto Logos</h1>
+    <p>High Quality Cryptocurrency Logos</p>
+    {% assign count = site.data.count-crypto[0] %}
+    <p class="small text-muted">Last update: <strong id="commitDate">???</strong> Already inside:<strong> {{ count.total }} icons.</strong> Enjoy <b class="h6">😎</b></p>
+  </div>
+  <ul class="row row-cols-3 row-cols-sm-4 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
+    {% for crypto in site.data.top-crypto-logos %}{% for token in crypto[1] %}
+    <li class="col mb-4" data-tags="{{ token.tags }}" data-categories="brand">
+      <a class="d-block text-dark text-decoration-none border rounded" href="{{ token.url }}">
+        <div class="px-2 py-3 py-md-5 text-center">
+          <img width="90" height="90" src="/assets/img/crypto-tokens-logos/{{ token.url }}.svg" alt="{{ token.name }} Logo Preview">
+        </div>
+        <div class="card-footer bg-white text-decoration-none text-muted">{{ token.name }}</div>
+      </a>
+    </li>
+    {% endfor %}{% endfor %}
+  </ul>
 </div>
-<ul class="row row-cols-3 row-cols-sm-4 row-cols-lg-6 row-cols-xl-8 list-unstyled list">
-  {% for crypto in site.data.top-crypto-logos %}{% for token in crypto[1] %}
-  <li class="col mb-4" data-tags="aapl mac macintosh" data-categories="brand">
-    <a class="d-block text-dark text-decoration-none border rounded" href="{{ token.url }}">
-      <div class="px-2 py-3 py-md-5 text-center">
-        <img width="90" height="90" src="/assets/img/crypto-tokens-logos/{{ token.url }}.svg" alt="{{ token.name }} Logo Preview">
-      </div>
-      <div class="card-footer bg-white text-decoration-none text-muted">{{ token.name }}</div>
-    </a>
-  </li>
-  {% endfor %}{% endfor %}
-</ul>
+<script src="/assets/js/commit-date.js"></script>
