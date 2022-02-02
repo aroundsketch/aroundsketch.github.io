@@ -1,7 +1,0 @@
-tokens:
-  - name: Bitcoin
-    url: bitcoin.org
-    tags: bitcoin crypto token
-  - name: Ethereum
-    url: ethereum.org
-    tags: ethereum crypto token
