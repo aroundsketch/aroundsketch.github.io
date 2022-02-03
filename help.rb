@@ -5,6 +5,7 @@ Dir.foreach("assets/img/crypto-tokens-logos/") do |file|
     new_service_name = new_file_name.capitalize.split('.').first
     if(File.file?("_data/top-crypto-logos/#{new_file_name}.yml")) 
       puts "= #{new_file_name}.yml"
+      # system("rm -rf _data/top-crypto-logos/#{new_file_name}.yml")
     else
       File.open("_data/top-crypto-logos/#{new_file_name}.yml", "w") {|f| f.write(
 "- name: #{new_service_name}
