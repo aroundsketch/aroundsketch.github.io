@@ -1,3 +1,4 @@
-- name: Polkadot DOT
+- name: Polkadot
   url: polkadot.network
   tags: Polkadot crypto token
+  ticker: DOT

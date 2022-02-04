@@ -1,3 +1,4 @@
-- name: Crypto CRO
+- name: Crypto.com Coin
   url: crypto.com
   tags: Crypto crypto token
+  ticker: CRO

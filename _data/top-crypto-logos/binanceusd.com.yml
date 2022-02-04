@@ -1,3 +1,4 @@
 - name: Binance USD
-  url: binance.com
+  url: binanceusd.com
   tags: Binanceusd crypto token
+  ticker: BUSD

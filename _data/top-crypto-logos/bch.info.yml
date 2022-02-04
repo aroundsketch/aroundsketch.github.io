@@ -1,0 +1,4 @@
+- name: Bitcoin Cash
+  url: bch.info
+  tags: Bch crypto token
+  ticker: BCH

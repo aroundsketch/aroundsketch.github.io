@@ -1,3 +1,4 @@
-- name: Xrp XRP
+- name: XRP
   url: xrpl.org
   tags: Xrpl crypto token
+  ticker: XRP

@@ -1,3 +1,4 @@
 - name: USD Coin
   url: centre.io
   tags: Centre crypto token
+  ticker: USDC

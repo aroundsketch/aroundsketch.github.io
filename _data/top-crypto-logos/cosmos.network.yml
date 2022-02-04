@@ -1,3 +1,4 @@
-- name: Cosmos ATOM
+- name: Cosmos
   url: cosmos.network
   tags: Cosmos crypto token
+  ticker: ATOM

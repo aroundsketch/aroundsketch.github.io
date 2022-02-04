@@ -1,3 +1,4 @@
-- name: Polygon MATIC
+- name: Polygon
   url: polygon.technology
   tags: Polygon crypto token
+  ticker: MATIC

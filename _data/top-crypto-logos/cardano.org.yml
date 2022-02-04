@@ -1,3 +1,4 @@
-- name: Cardano ADA
+- name: Cardano
   url: cardano.org
   tags: Cardano crypto token
+  ticker: ADA

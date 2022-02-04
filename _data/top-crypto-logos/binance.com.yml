@@ -1,3 +1,4 @@
-- name: Binance BNB
+- name: Binance
   url: binance.com
   tags: Binance crypto token
+  ticker: BNB

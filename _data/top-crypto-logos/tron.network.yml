@@ -1,0 +1,4 @@
+- name: TRON
+  url: tron.network
+  tags: Tron crypto token
+  ticker: TRX

@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "bundle exec jekyll serve --livereload",
-    "ruby": "ruby help.rb"
+    "ruby": "ruby help.rb",
+    "git": "git add . && git commit -a -m \"update\" && git push"
   }
 }

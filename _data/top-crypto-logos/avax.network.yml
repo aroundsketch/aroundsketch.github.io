@@ -1,3 +1,4 @@
-- name: Avalance AVAX
+- name: Avalance
   url: avax.network
   tags: Avax crypto token
+  ticker: AVAX

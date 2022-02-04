@@ -1,3 +1,4 @@
-- name: Dogecoin DOGE
+- name: Dogecoin
   url: dogecoin.com
   tags: Dogecoin crypto token
+  ticker: DOGE

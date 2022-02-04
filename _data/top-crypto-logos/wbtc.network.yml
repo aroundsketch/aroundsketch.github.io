@@ -1,3 +1,4 @@
-- name: Wrapped Bitcoin  WBTC
+- name: Wrapped Bitcoin
   url: wbtc.network
   tags: Wbtc crypto token
+  ticker: WBTC

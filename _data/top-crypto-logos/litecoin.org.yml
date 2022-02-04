@@ -1,3 +1,4 @@
-- name: Litecoin LTC
+- name: Litecoin
   url: litecoin.org
   tags: Litecoin crypto token
+  ticker: LTC

@@ -1,3 +1,4 @@
-- name: Terra LUNA
+- name: Terra
   url: terra.money
   tags: Terra crypto token
+  ticker: LUNA

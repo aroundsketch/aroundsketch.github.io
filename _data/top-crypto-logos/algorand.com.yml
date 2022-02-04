@@ -1,0 +1,4 @@
+- name: Algorand
+  url: algorand.com
+  tags: Algorand crypto token
+  ticker: ALGO

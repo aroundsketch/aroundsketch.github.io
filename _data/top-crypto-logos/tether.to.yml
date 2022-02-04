@@ -1,3 +1,4 @@
-- name: Tether USDT
+- name: Tether
   url: tether.to
   tags: Tether crypto token
+  ticker: USDT

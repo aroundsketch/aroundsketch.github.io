@@ -1,0 +1,4 @@
+- name: Chainlink
+  url: chain.link
+  tags: Chain crypto token
+  ticker: LINK

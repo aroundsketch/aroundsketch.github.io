@@ -1,0 +1,4 @@
+- name: Uniswap
+  url: uniswap.org
+  tags: Uniswap crypto token
+  ticker: UNI

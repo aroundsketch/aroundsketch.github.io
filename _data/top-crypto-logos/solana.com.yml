@@ -1,3 +1,4 @@
-- name: Solana SOL
+- name: Solana
   url: solana.com
   tags: Solana crypto token
+  ticker: SOL

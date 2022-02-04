@@ -1,0 +1,4 @@
+- name: Stellar
+  url: stellar.org
+  tags: Stellar crypto token
+  ticker: XLM

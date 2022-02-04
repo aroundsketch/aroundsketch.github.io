@@ -1,0 +1,4 @@
+- name: FTX Token
+  url: ftx.com
+  tags: Ftx crypto token
+  ticker: FTT

@@ -1,3 +1,4 @@
-- name: Ethereum ETH
+- name: Ethereum
   url: ethereum.org
   tags: Ethereum crypto token
+  ticker: ETH

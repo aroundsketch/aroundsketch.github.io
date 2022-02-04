@@ -1,3 +1,4 @@
-- name: Dai DAI
+- name: Dai
   url: makerdao.com
   tags: Makerdao crypto token
+  ticker: DAI
