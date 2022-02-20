@@ -8,7 +8,7 @@ layout: cover
         <h1 class="display-3 fw-bold">SVG Icon Library</h1>
         <p class="lead fs-4">I hope you'll find it helpful.</p>
       </div>
-      <p class="text-muted">Crafted with all the love in the world.<p></p>
+      <!-- <p class="text-muted">Crafted with all the love in the world.<p></p> -->
     </div>
   </div>
 </div>
@@ -16,11 +16,11 @@ layout: cover
   {% for set in site.data.sets.sets %}
     <div class="col">
       <a class="text-decoration-none" href="{{set.url}}">
-        <div class="card">
+        <div class="card border-0 pseduo">
           <img class="card-img-top p-2" src="{{set.img}}"  width="100%" height="auto" role="img" aria-label="Placeholder: Thumbnail" alt="{{set.name}}">
           <div class="card-body">
             <div class="d-flex justify-content-between align-items-center">
-              <h5 class="card-text m-0 text-dark">{{set.name}}</h5>
+              <h5 class="m-0 text-dark">{{set.name}}</h5>
               <small class="text-muted">{{set.details}}</small>
             </div>
           </div>
