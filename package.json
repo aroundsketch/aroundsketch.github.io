@@ -4,7 +4,7 @@
   "description": "",
   "version": "1.0.0",
   "scripts": {
-    "dev": "bundle exec jekyll serve --livereload",
+    "dev": "bundle exec jekyll serve --trace",
     "ruby": "ruby help.rb",
     "git": "git add . && git commit -a -m \"update\" && git push"
   }
