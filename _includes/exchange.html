@@ -1,0 +1,28 @@
+{% assign exchange = site.data.top-crypto-exchanges.{[page.ser]}[0] %}
+<div class="container-960 pt-md-5 mx-auto">
+  <div class="row">
+    <div class="col-md-6 col-lg-8">
+      <h1>{{ exchange.name }}</h1>
+      <p>{{ exchange.name }} Logo Preview</p>
+    </div>
+  </div>
+  <div class="row gx-lg-5">
+    <div class="col-lg-8 mb-4">
+      <div class="icon-demo mb-4 border rounded-3 d-flex align-items-center justify-content-center p-3 py-6" style="font-size: 10em" role="img" aria-label="{{ exchange.name }} - large preview">
+        <img width="180" height="180" src="/assets/img/top-crypto-exchanges/{{ exchange.url }}.svg" alt="{{ exchange.name }} Logo Preview">
+      </div>
+    </div>
+    <div class="col-lg-4 mb-4">
+      <h2 class="fs-3">Download</h2>
+      <p>Download the SVG to use or edit.</p>
+      <a href="/assets/img/top-crypto-exchanges/{{ exchange.url }}.svg" class="btn btn-outline-primary mb-4" download="{{ exchange.url }}.svg">Download SVG</a>
+      <p>
+        <h6 class="my-0 text-muted">Website</h6>
+        <a href="https://{{ exchange.url }}/?ref=aroundsketch.github.io" class="text-decoration-none" target="blank">
+          <i class="bi bi-link"></i>
+          {{ exchange.url }}
+        </a>
+      </p>
+    </div>
+  </div>
+</div>
